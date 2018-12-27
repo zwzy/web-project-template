@@ -1,0 +1,9 @@
+@import'../styles/variable.scss';
+.lfBox{
+  width: Px(750);
+  margin: Px(20) auto;
+  height: Px(48);
+  background: $warning;
+  display: flex;
+  border-radius: $radiusSize;
+}
