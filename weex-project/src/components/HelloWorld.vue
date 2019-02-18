@@ -1,3 +1,6 @@
 <template>
-  <text class="message">Now, let's use Vue.js to build your Weex app.</text>
+<div>
+  <text class="message">sdfsdfsdf.</text>
+  <richtext><span :style="{color:'red'}">dsadsad2</span><span>2222</span> </richtext>
+</div>
 </template>

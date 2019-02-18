@@ -2770,7 +2770,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/src/components/HelloWorld.vue"
+__vue_options__.__file = "/zweb-study/web-project-template/weex-project/src/components/HelloWorld.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -2791,9 +2791,13 @@ module.exports = __vue_exports__
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('text', {
+  return _c('div', [_c('text', {
     staticClass: ["message"]
-  }, [_vm._v("Now, let's use Vue.js to build your Weex app.")])
+  }, [_vm._v("sdfsdfsdf.")]), _c('richtext', [_c('span', {
+    style: {
+      color: 'red'
+    }
+  }, [_vm._v("dsadsad2")]), _c('span', [_vm._v("2222")])])], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
@@ -2817,7 +2821,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/src/components/HelloWorld1.vue"
+__vue_options__.__file = "/zweb-study/web-project-template/weex-project/src/components/HelloWorld1.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -2871,7 +2875,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/src/index.vue"
+__vue_options__.__file = "/zweb-study/web-project-template/weex-project/src/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-2964abc9"
@@ -2893,6 +2897,15 @@ module.exports = __vue_exports__
 /***/ (function(module, exports) {
 
 module.exports = {
+  "text1": {
+    "display": "inline-block",
+    "color": "#FF0000"
+  },
+  "div1": {
+    "width": "750",
+    "display": "flex",
+    "flexDirection": "row"
+  },
   "wrapper": {
     "justifyContent": "center",
     "alignItems": "center"
@@ -2939,6 +2952,9 @@ var _wxcButton2 = _interopRequireDefault(_wxcButton);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var navigator = weex.requireModule('navigator'); //
+//
+//
+//
 //
 //
 //
@@ -3039,7 +3055,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-popup/index.vue"
+__vue_options__.__file = "/zweb-study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-popup/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-28869db8"
@@ -3365,7 +3381,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-overlay/index.vue"
+__vue_options__.__file = "/zweb-study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-overlay/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-389bbc1c"
@@ -3617,7 +3633,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-button/index.vue"
+__vue_options__.__file = "/zweb-study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-button/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-6273a8fc"
@@ -3875,10 +3891,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "wxcButtonClicked": _vm.buttonClicked
     }
   }), _c('div', {
+    staticClass: ["div1"],
     attrs: {
       "show": _vm.isShow
     }
-  }, [_vm._v("\n    12121\n  ")]), _c('wxc-popup', {
+  }, [_c('text', [_vm._v("sdfsdfsdfsd")]), _c('text', {
+    style: {
+      color: "red"
+    }
+  }, [_vm._v("2222")]), _c('text', {
+    style: {
+      color: "blue"
+    }
+  }, [_vm._v("8989789798这天气真的很好，我\n      们玩的都很开心，心情都很愉快或许这就是我们想要的幸fsdffsdfsfsf s ss福")])]), _c('wxc-popup', {
     attrs: {
       "width": "500",
       "pos": "left",

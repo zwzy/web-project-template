@@ -22532,7 +22532,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/src/components/HelloWorld.vue"
+Component.options.__file = "/zweb-study/web-project-template/weex-project/src/components/HelloWorld.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] HelloWorld.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -22560,12 +22560,22 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('p', {
+  return _c('div', {
+    staticClass: " weex-ct weex-div",
+    attrs: {
+      "weex-type": "div"
+    }
+  }, [_c('p', {
     staticClass: "message weex-el weex-text",
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v("Now, let's use Vue.js to build your Weex app.")])
+  }, [_vm._v("sdfsdfsdf.")]), _vm._v(" "), _c('richtext', [_c('span', {
+    style: ({
+      color: 'red'
+    }),
+    attrs: {}
+  }, [_vm._v("dsadsad2")]), _c('span', [_vm._v("2222")])])], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -22592,7 +22602,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/src/components/HelloWorld1.vue"
+Component.options.__file = "/zweb-study/web-project-template/weex-project/src/components/HelloWorld1.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] HelloWorld1.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -22656,7 +22666,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/src/index.vue"
+Component.options.__file = "/zweb-study/web-project-template/weex-project/src/index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -22714,7 +22724,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.wrapper[data-v-141ff333] {\n  justify-content: center;\n  align-items: center;\n}\n.logo[data-v-141ff333] {\n  width: 5.65333rem;\n  height: 2.66667rem;\n}\n.greeting[data-v-141ff333] {\n  text-align: center;\n  margin-top: 0.93333rem;\n  font-size: 0.66667rem;\n  color: #41B883;\n}\n.message[data-v-141ff333] {\n  margin: 0.4rem;\n  font-size: 0.42667rem;\n  color: #727272;\n}\n", ""]);
+exports.push([module.i, "\n.text1[data-v-141ff333]{\n  display: inline-block;\n  color:red;\n}\n.div1[data-v-141ff333]{\n  width: 10rem;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  flex-direction: row;\n  /* flex-wrap: wrap; */\n  justify-content: left;\n}\n.wrapper[data-v-141ff333] {\n  justify-content: center;\n  align-items: center;\n}\n.logo[data-v-141ff333] {\n  width: 5.65333rem;\n  height: 2.66667rem;\n}\n.greeting[data-v-141ff333] {\n  text-align: center;\n  margin-top: 0.93333rem;\n  font-size: 0.66667rem;\n  color: #41B883;\n}\n.message[data-v-141ff333] {\n  margin: 0.4rem;\n  font-size: 0.42667rem;\n  color: #727272;\n}\n", ""]);
 
 // exports
 
@@ -22774,6 +22784,9 @@ var _wxcButton2 = _interopRequireDefault(_wxcButton);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var navigator = weex.requireModule('navigator'); //
+//
+//
+//
 //
 //
 //
@@ -22868,7 +22881,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-popup/index.vue"
+Component.options.__file = "/zweb-study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-popup/index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -23207,7 +23220,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-overlay/index.vue"
+Component.options.__file = "/zweb-study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-overlay/index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -23528,7 +23541,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zuowang/Desktop/study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-button/index.vue"
+Component.options.__file = "/zweb-study/web-project-template/weex-project/node_modules/weex-ui/packages/wxc-button/index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -23843,12 +23856,33 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "wxcButtonClicked": _vm.buttonClicked
     }
   }), _vm._v(" "), _c('div', {
-    staticClass: " weex-ct weex-div",
+    staticClass: "div1 weex-ct weex-div",
     attrs: {
       "show": _vm.isShow,
       "weex-type": "div"
     }
-  }, [_vm._v("\n    12121\n  ")]), _vm._v(" "), _c('wxc-popup', {
+  }, [_c('p', {
+    staticClass: " weex-el weex-text",
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("sdfsdfsdfsd")]), _vm._v(" "), _c('p', {
+    staticClass: " weex-el weex-text",
+    style: ({
+      color: 'red'
+    }),
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("2222")]), _vm._v(" "), _c('p', {
+    staticClass: " weex-el weex-text",
+    style: ({
+      color: 'blue'
+    }),
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("8989789798这天气真的很好，我\n      们玩的都很开心，心情都很愉快或许这就是我们想要的幸fsdffsdfsfsf s ss福")])]), _vm._v(" "), _c('wxc-popup', {
     attrs: {
       "width": "500",
       "pos": "left",

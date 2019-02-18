@@ -7,8 +7,11 @@
    <wxc-button text="Open Popup"
                 @wxcButtonClicked="buttonClicked">
     </wxc-button>
-    <div :show="isShow">
-      12121
+    <div :show="isShow" class="div1" >
+      <text>sdfsdfsdfsd</text>  
+      <text :style='{color:"red"}'>2222</text>  
+      <text :style='{color:"blue"}'>8989789798这天气真的很好，我
+        们玩的都很开心，心情都很愉快或许这就是我们想要的幸fsdffsdfsfsf s ss福</text>  
     </div>
     <wxc-popup width="500"
                pos="left"
@@ -53,6 +56,17 @@ export default {
 </script>
 
 <style scoped>
+  .text1{
+    display: inline-block;
+    color:red;
+  }
+  .div1{
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: left;
+  }
   .wrapper {
     justify-content: center;
     align-items: center;
