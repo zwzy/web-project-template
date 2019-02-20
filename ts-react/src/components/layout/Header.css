@@ -1,0 +1,11 @@
+.header{
+  height: 48px;
+  line-height: 48px;
+  background: #555;
+}
+.light {
+  background: #fff;
+}
+.dark {
+  background: #555;
+}
